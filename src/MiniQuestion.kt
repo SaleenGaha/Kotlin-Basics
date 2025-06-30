@@ -49,7 +49,7 @@ import java.lang.Integer.sum
 //    }
 //}
 ////Convert temperature from Celsius to Fahrenheit.
-//Fahrenheit = (Celsius × 9/5) + 32
+
 //fun main() {
 //    print("enter the temprature in Celsius")
 //    val celsius=readLine()!!.toDouble()

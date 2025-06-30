@@ -71,9 +71,17 @@ DATA TYPES
 
 
 
-fun main(){
-    var passenger=20
-    println("there are $passenger in the bus")
-println("there are  ${passenger+2 }in the bus")
-
+//fun main(){
+//    var passenger=20
+//    println("there are $passenger in the bus")
+//println("there are  ${passenger+2 }in the bus")
+//
+//}
+// string ($) interpolation
+fun main() {
+    val a = 5
+    val b = 3
+    println("Sum is ${a + b}")              // Expression
+    println("Maximum is ${maxOf(a, b)}")    // Function
+    println("Length is ${"Hello".length}")  // Property
 }
